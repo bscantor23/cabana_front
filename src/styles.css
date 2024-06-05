@@ -1,0 +1,48 @@
+:root {
+    --rs-primary-50: #fdf2f8;
+    --rs-primary-100: #fce7f3;
+    --rs-primary-200: #fbcfe8;
+    --rs-primary-300: #f9a8d4;
+    --rs-primary-400: #f472b6;
+    --rs-primary-500: #ec4899;
+    --rs-primary-600: #db2777;
+    --rs-primary-700: #be185d;
+    --rs-primary-800: #9d174d;
+    --rs-primary-900: #831843;
+    --rs-color-red: #f44336;
+    --rs-color-orange: #b39878;
+    --rs-color-yellow: #ffb300;
+    --rs-color-green: #4caf50;
+    --rs-color-cyan: #00bcd4;
+    --rs-color-blue: #2196f3;
+    --rs-color-violet: #673ab7;
+  }
+
+  .rs-calendar-table-cell-selected {
+    color: #fff !important;
+  }
+
+  .rs-calendar,
+  .rs-calendar-table-cell-content {
+    height: 100% !important;
+  }
+
+  .rs-calendar-table-cell {
+    height: 50px !important;
+  }
+
+  .image-gallery-thumbnail img {
+    object-position: center;
+    object-fit: cover;
+    height: 80px;
+  }
+
+  .image-gallery-content:not(.fullscreen)
+  .image-gallery-slide
+  .image-gallery-image {
+  height: 450px;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
